@@ -1,7 +1,7 @@
-import { Express } from "express";
+import  express  from "express";
 
 
-const app=Express();
+const app=express();
 const PORT=8000;
 
-app.listen(PORT,()=>console.log("Your server is running success on "))
+app.listen(PORT,()=>console.log('Your server is running success on Port ${PORT}'));
